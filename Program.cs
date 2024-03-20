@@ -11,3 +11,5 @@ for (int i = 0; i < array.Length; i++)
         res[count++] = array[i];
     }
 }
+
+Array.Resize(ref res, count);
