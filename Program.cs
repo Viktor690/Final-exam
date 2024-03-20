@@ -13,3 +13,6 @@ for (int i = 0; i < array.Length; i++)
 }
 
 Array.Resize(ref res, count);
+
+Console.WriteLine($"Исходный массив: [ {string.Join(", ", array)} ]");
+Console.WriteLine($"Результат: [ {string.Join(", ", res)} ]"); 
